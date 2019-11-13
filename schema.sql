@@ -2,7 +2,7 @@ CREATE TABLE users(
         id INT PRIMARY KEY,
         firstname CHAR(20),
         lastname CHAR(20),
-        password CHAR(18),
+        password CHAR(9),
         email CHAR,
         date_joined date
 );
@@ -18,4 +18,8 @@ CREATE TABLE issues(
         created CHAR,
         updated CHAR
 );
+SELECT * FROM student;
+INSERT INTO user(password, email) VALUES('password123','admin@bugme.com');
+
+
         
