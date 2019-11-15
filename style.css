@@ -1,0 +1,92 @@
+#bug{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+	filter: invert(100%);
+}
+
+body{
+    height: 100%;
+	font-family: Verdana;
+	margin: 0;
+	background-color: white; 
+}
+#header{
+    height: 70px;
+    display: grid;
+    text-align: left;
+    background-color: black;
+    grid-template-columns: 20% 70%;
+    align-items: center;
+    font-family: Verdana;
+}
+
+#headerName{
+    display: grid;
+    color: white;
+}
+
+.sideBar{
+    background-color: rgb(223, 219, 219) ; 
+    width: 200px;
+}
+
+.sideBar-icon{
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+}
+.main-area{
+    align-content: flex-start;
+    align-items: left;
+	display: grid;
+	grid-column-gap: 10em;
+	margin: 0
+}
+
+.page-body{
+    height: 100vh;
+	display: grid;
+	grid-column-gap: 10em;
+	grid-template-columns: 10% 70%;
+	margin: 0
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(124, 129, 134);
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+    margin-inline-start: 0;
+    padding-top: 20px;
+    list-style-type: none;
+    align-items: center;
+  }
+
+  ul{
+    padding: 0;
+}
+
+
+li:hover {
+    background-color: rgb(300, 300, 300);
+  }
+  
+.submit{
+    border-style: solid;
+    margin-top: 50px;
+    border-color: white;
+    color: white;
+    height: 35px;
+    width: 100px;
+    background-color: rgb(21, 134, 226);
+    border-radius: 4px;
+}
