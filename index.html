@@ -1,45 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>New User</title>
-  
+    <meta charset="UTF-8" />
+    <title>Info2180-Final-Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
+
 <body>
-<div class ="header">
-	<h1>New User</h1
-
-</div>
-
-<form>
-	<table>
-		<tr>
-			<td> First Name:</td>
-			<td><input type="text" name="username" class="textInput"></td>
-		</tr>
-
-		<tr>
-			<td> Last Name:</td>
-			<td><input type="text=" name="username" class="textInput"></td>
-		</tr>
-
-		<tr>
-			<td> Password:</td>
-			<td><input type="password" name="password" class="textInput"></td>
-		</tr>
-
-		<tr>
-			<td> Email:</td>
-			<td><input type="email" name="email" class="textInput"></td>
-		</tr>
-
-		<tr>
-			<td></td>
-			<td><input type="submit" name="submit_btn" value="Submit"></td>
-		</tr>
+    <div id="header">
+            <img src="debug.png" alt="header debug icon" id="bug" >
+            <div id ="headerName">BugMe Issue Tracker</div>
+        </div>
+        
 
 
+    <div class="page-body">
 
+        <div class="sideBar">
+            <ul>
+                    <li>
+                        <img src="home.png" alt="home icon" class="sideBar-icon">
+                        Home
+                    </li>
+                    <li>
+                        <img src="add-user.png" alt="add user icon" class="sideBar-icon">
+                        Add User
+                    </li>
+                    <li>
+                        <img src="newIssue.png" alt="New issue icon" class="sideBar-icon">
+                        New Issue
+                    </li>
+                    <li>
+                        <img src="logout.png" alt="Logout icon" class="sideBar-icon">
+                        Logout
+                    </li>
+            </ul>
+        </div>
 
-  
+        <div class="main-area">
+                <h1>New User </h1>
+                <form>
+                   <br>    
+                    First name:<br>
+                    <input type="text" name="firstname">
+                    <br><br>
+                    Last name:<br>
+                    <input type="text" name="lastname">
+                    <br><br>
+                    Email:<br>
+                    <input type="email" name="email">
+                    <br><br>
+                    Password:<br>
+                    <input type="password" name="password">
+                </form>
+                <button class="submit" type="button">Submit</button>
+            
+        </div>
+
+    </div>
+
 </body>
 </html>
