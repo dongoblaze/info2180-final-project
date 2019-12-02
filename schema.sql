@@ -1,3 +1,5 @@
+CREATE DATABASE bugme;
+USE bugme;
 CREATE TABLE users(
         id INT PRIMARY KEY,
         firstname CHAR(20),
